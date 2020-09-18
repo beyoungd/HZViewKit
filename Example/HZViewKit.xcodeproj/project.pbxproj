@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07264B66EEE8788A625E5147 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		07264B66EEE8788A625E5147 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		359BDBC5A7213594C4278356 /* Pods-HZViewKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZViewKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-HZViewKit_Example/Pods-HZViewKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HZViewKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZViewKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95BFB306645F6EB66A362DF8 /* Pods-HZViewKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZViewKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HZViewKit_Tests/Pods-HZViewKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D71BD0A3523345E75A303F23 /* Pods-HZViewKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZViewKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HZViewKit_Tests/Pods-HZViewKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DDC9C49F5705DBF2218AAA3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DDC9C49F5705DBF2218AAA3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EDFFC6F38120CDE60F62D5A0 /* Pods_HZViewKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZViewKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA36E65A4410B9079B2859F5 /* Pods_HZViewKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZViewKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEB053791E6A21D9CE488A60 /* HZViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HZViewKit.podspec; path = ../HZViewKit.podspec; sourceTree = "<group>"; };
+		FEB053791E6A21D9CE488A60 /* HZViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HZViewKit.podspec; path = ../HZViewKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				95BFB306645F6EB66A362DF8 /* Pods-HZViewKit_Tests.debug.xcconfig */,
 				D71BD0A3523345E75A303F23 /* Pods-HZViewKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

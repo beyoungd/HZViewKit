@@ -1,0 +1,22 @@
+{
+  "name": "HZViewKit",
+  "version": "0.1.0",
+  "summary": "A short description of HZViewKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/beyoungd/HZViewKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "beyoungd": "1049712935@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/beyoungd/HZViewKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HZViewKit/Classes/**/*"
+}
